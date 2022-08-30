@@ -7,5 +7,5 @@ $ docker-compose up -d
 $ go run main.go
 
 # Open new terminal to upload file
-$ ./verify.sh 209715200 # 209715200 ~ 200 MB is the size of test file
+$ ./verify.sh 26214400 # 26214400 ~ 25 MB is the size of test file
 ```
