@@ -3,9 +3,9 @@
 # Start envoy
 $ docker-compose up -d
 
-# Start file upload service
+# Open new terminal to start file upload service
 $ go run main.go
 
-# Upload file
-$ ./verify.sh 209715200 # 209715200 ~ 200 MB is the size of test file
+# Open new terminal to upload file
+$ ./verify.sh 26214400 # 26214400 ~ 25 MB is the size of test file
 ```
