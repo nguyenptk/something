@@ -1,0 +1,10 @@
+# docker-compose.yml
+version: '3.8'
+services:
+  envoy:
+    build:
+      context: .
+      dockerfile: Dockerfile-envoy
+    container_name: envoy
+    ports:
+      - 8080:8080
